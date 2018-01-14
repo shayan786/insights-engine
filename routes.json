@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/problem-1",
+    "page": "./pages/insights_engine_1",
+    "chunk": "main"
+  },
+  {
+    "path": "/problem-2",
+    "page": "./pages/insights_engine_2",
+    "chunk": "main"
+  },
+  {
+    "path": "/problem-3",
+    "page": "./pages/insights_engine_3",
+    "chunk": "main"
+  }
+]

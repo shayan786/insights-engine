@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 0 16px;
+  }
+}
+
+.content {
+	
+}
+
+.row {
+	padding: 2em 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+  box-shadow: 0 3px 2px -2px rgba(76,76,76,0.35);
+}
+
+.row:last-child {
+	box-shadow: none;
+}
+
+.right {
+	padding-left: 4em;
+	width: 80%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.left {
+	width: 20%;
+	text-align: center;
+}
+
+.left .icon {
+	width: 2em;
+	position: relative;
+	left: 8px;
+}
+
+.left .status {
+	width: 16px;
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+
+.location {
+	margin-top: 0.6em;
+}
+
+.addEu {
+	margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+.header {
+	text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	border-bottom: 3px solid #f6f6f6;
+}
+
+.header .selected {
+	background-color: #e2f1f5;
+}
+
+.header :not(.selected):hover {
+	font-weight: bold;
+}
+
+.btn {
+	font-size: 1.8em;
+	padding: 15px 0px;
+	width: 50%;
+	cursor: pointer;
+}
